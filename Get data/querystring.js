@@ -13,8 +13,10 @@ var server = http.createServer(function (req, res) {
   } else {
     var url = req.url;
   }
+
   console.log(url);
   console.log(get);
+  res.end();
 });
 
 server.listen('8080');

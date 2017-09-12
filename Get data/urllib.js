@@ -8,5 +8,6 @@ http.createServer(function(req,res){
   var get = obj.query;
 
   console.log(url, get);
+  res.end();
 
 }).listen('8080');
