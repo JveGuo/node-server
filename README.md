@@ -2,5 +2,5 @@
 
 ## node server.js
 
-> npm  express,express-static
+> node_modules  express,express-static
 
