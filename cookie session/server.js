@@ -5,6 +5,9 @@ var server = express();
 
 //cookie
 
+/**
+ * cookie-crypter   对cookie 进行加密
+ */
 server.use(cookieParser('asddsad'));    //读取
 
 server.use('/',function(req,res){
