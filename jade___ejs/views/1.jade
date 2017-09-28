@@ -1,7 +1,11 @@
 html
   head
     style
+    link(rel="stylesheet", href="a.css")
+    script(src="a.js")
   body
-   div
-    ul
-     li
+    div(style="width:200px;height:200px;",class="aaa left")
+    div(style={width:'200px',height:'200px'},class=['aaa','left'])
+    div&attributes({title:'aaa',id:'www'})
+      ul
+        li
