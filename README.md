@@ -2,5 +2,10 @@
 
 ## node server.js
 
-> node_modules  express,express-static
+> express
+* 主体
+* cookie ，session
+* 数据
+* 模板引擎
+
 
